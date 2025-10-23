@@ -1,0 +1,11 @@
+##Comandos para ejecutar Pruebas
+
+1. npx playwright test tests/votar-sin-login.spec.ts --project=chromium 
+--headed
+
+2. npx playwright test tests/verificar-enlace.spec.ts --project=chromium --headed
+
+3.  npx playwright test tests/registrousuario.spec.ts --project=chromium 
+--headed 
+
+4. npx playwright test tests/registro-existente-usuario.spec.ts --project=chromium --headed
