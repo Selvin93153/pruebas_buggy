@@ -15,8 +15,8 @@ test("Registro de nuevo usuario en Buggy Cars", async ({ page }) => {
 
   // 4️⃣ Completar el formulario de registro
   await page.fill("#username", username);
-  await page.fill("#firstName", "Juana");
-  await page.fill("#lastName", "Perez");
+  await page.fill("#firstName", "sin voto");
+  await page.fill("#lastName", "boto");
   await page.fill("#password", "Carmen100.");
   await page.fill("#confirmPassword", "Carmen100.");
 

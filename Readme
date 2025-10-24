@@ -1,11 +1,15 @@
 ##Comandos para ejecutar Pruebas
 
-1. npx playwright test tests/votar-sin-login.spec.ts --project=chromium 
---headed
+1. npx playwright test tests/votar-sin-login.spec.ts --project=chromium --headed
 
-2. npx playwright test tests/verificar-enlace.spec.ts --project=chromium --headed
+2. npx playwright test tests/votar-con-login.spec.ts --project=chromium --headed
 
-3.  npx playwright test tests/registrousuario.spec.ts --project=chromium 
---headed 
+3. npx playwright test tests/verificar-enlace.spec.ts --project=chromium --headed
 
-4. npx playwright test tests/registro-existente-usuario.spec.ts --project=chromium --headed
+4.  npx playwright test tests/registrousuario.spec.ts --project=chromium --headed 
+
+5. npx playwright test tests/registro-existente-usuario.spec.ts --project=chromium --headed
+
+6. npx playwright test tests/paginacion-overraiting.spec.ts --project=chromium --headed
+
+7. npx playwright test tests/comentario-largo.spec.ts --project=chromium --headed
