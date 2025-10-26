@@ -13,3 +13,13 @@
 6. npx playwright test tests/paginacion-overraiting.spec.ts --project=chromium --headed
 
 7. npx playwright test tests/comentario-largo.spec.ts --project=chromium --headed
+
+8. npx playwright test tests/comprobar-incremento-voto.spec.ts --project=chromium --headed
+
+9. npx playwright test tests/editar-perfil.spec.ts --project=chromium --headed
+
+10. npx playwright test tests/expantir-imagen.spec.ts --project=chromium --headed
+
+11. npx playwright test tests/limite-paginacion.spec.ts --project=chromium --headed
+
+12. npx playwright test tests/comprobacion-voto-con-login.spec.ts --project=chromium --headed
